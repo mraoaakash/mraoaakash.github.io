@@ -11,6 +11,6 @@ I work with the Centre for Healthcaare Analytics, Research, and Trends at [Ashok
 
 We are working to classify and quantify Triple Negative Breast Cancer, a particular subtype of breast cancer, in the Indian context. We are looking at this disease specifically in the indian context due to its high rate of prevailence as well as it's poor average prognosis, the former being specific to patients from India. 
 
-Our project is in collaboration with IISER Pune and Max Hospital with both serving as sources for our data. All the data recieved is private and hence not available to the public. However, our final models would be evaluated against publically available datasets for benchmarking. 
+Our project is in collaboration with IISER Pune and Max Hospital with both serving as sources for our data. All the data recieved is private and hence not available to the public. However, our final models would be evaluated against publicly available datasets for benchmarking. 
 
 The six of us working on this project have various contributions to each element of the processes explored and hence, I will be useing the collective pronoun 'we' to refer to the progress made and tasks completed. I will periodicaly be updating this page with our progress.
