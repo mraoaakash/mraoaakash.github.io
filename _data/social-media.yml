@@ -1,15 +1,6 @@
 # Get Icons  from : https://fontawesome.com/icons
 # Get Colors from : https://brandcolors.net/
 
-behance:
-  url   : https://www.behance.net/
-  icon  : fab fa-behance
-  color : 1769ff
-
-dribbble:
-  url   : https://dribbble.com/
-  icon  : fab fa-dribbble
-  color : 444444
 
 email:
   url   : "mailto: aakash.rao_ug23@ashoka.edu.in"
@@ -22,24 +13,16 @@ facebook:
   color : 3b5998
 
 github:
-  url   : https://www.github.com/mraoaakash
+  url   : https://github.com/mraoaakash
   icon  : fab fa-github
   color : 333333
 
-gitlab:
-  url   : https://www.gitlab.com/
-  icon  : fab fa-gitlab
-  color : fca326
 
 instagram:
   url   : https://www.instagram.com/mraoaakash
   icon  : fab fa-instagram
   color : 405de6
-  
-kaggle:
-  url   : https://www.kaggle.com/
-  icon  : fab fa-kaggle
-  color : 20beff
+
 
 linkedin:
   url   : https://www.linkedin.com/in/mraoaakash
@@ -47,51 +30,72 @@ linkedin:
   color : 007bb5
 
 medium:
-  url   : https://medium.com/@
+  url   : https://mraoaakash.medium.com
   icon  : fab fa-medium
   color : 00ab6c
-
-soundcloud:
-  url   : https://www.soundcloud.com/
-  icon  : fab fa-soundcloud
-  color : ff8800
-
-spotify:
-  url   : https://open.spotify.com/user/mraoaakash
-  icon  : fab fa-spotify
-  color : 1db954
-
-stackoverflow:
-  url   : https://stackoverflow.com/u/
-  icon  : fab fa-stack-overflow
-  color : f48024
-
-tumblr:
-  url   : https://
-  icon  : fab fa-tumblr
-  color : 35465c
-
-twitch:
-  url   : https://www.twitch.tv/
-  icon  : fab fa-twitch
-  color : 6441a5
 
 twitter:
   url   : https://www.twitter.com/mraoaakash
   icon  : fab fa-twitter
   color : 1da1f2
 
-vimeo:
-  url   : https://www.vimeo.com/
-  icon  : fab fa-vimeo-v
-  color : 162221
+# behance:
+#   url   : https://www.behance.net/
+#   icon  : fab fa-behance
+#   color : 1769ff
 
-youtube:
-  url   : https://www.youtube.com/
-  icon  : fab fa-youtube
-  color : ff0000
+# dribbble:
+#   url   : https://dribbble.com/
+#   icon  : fab fa-dribbble
+#   color : 444444
 
-keybase:
-  url   : https://www.keybase.io/
-  icon  : fab fa-keybase
-  color : 66ccff
+# gitlab:
+#   url   : https://www.gitlab.com/
+#   icon  : fab fa-gitlab
+#   color : fca326
+  
+# kaggle:
+#   url   : https://www.kaggle.com/
+#   icon  : fab fa-kaggle
+#   color : 20beff
+
+# soundcloud:
+#   url   : https://www.soundcloud.com/
+#   icon  : fab fa-soundcloud
+#   color : ff8800
+
+# spotify:
+#   url   : https://open.spotify.com/user/mraoaakash
+#   icon  : fab fa-spotify
+#   color : 1db954
+
+# stackoverflow:
+#   url   : https://stackoverflow.com/u/
+#   icon  : fab fa-stack-overflow
+#   color : f48024
+
+# tumblr:
+#   url   : https://
+#   icon  : fab fa-tumblr
+#   color : 35465c
+
+# twitch:
+#   url   : https://www.twitch.tv/
+#   icon  : fab fa-twitch
+#   color : 6441a5
+
+
+# vimeo:
+#   url   : https://www.vimeo.com/
+#   icon  : fab fa-vimeo-v
+#   color : 162221
+
+# youtube:
+#   url   : https://www.youtube.com/
+#   icon  : fab fa-youtube
+#   color : ff0000
+
+# keybase:
+#   url   : https://www.keybase.io/
+#   icon  : fab fa-keybase
+#   color : 66ccff
