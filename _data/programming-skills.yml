@@ -1,6 +1,11 @@
 - name: Python
   percentage: 90
   color: secondary
+
 - name: C
   percentage: 80
   color: warning
+
+- name: R
+  percentage: 70
+  color: secondary

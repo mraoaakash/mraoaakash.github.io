@@ -1,17 +1,18 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Student, Ashoka University CS
+  from: 2020
+  to: 2024
+  description: Pursuing my Bachelors degree in Computer Science with a possible concentration in mathematics. 
+              I maintain a GPA of 3.3 and am a part of various projects in the area of Machine Learning and Computer Vision.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Teaching Assistant, Ashoka University CS
+  from: January 2022
+  to: Present
+  description: Served as a teaching assistant for the courses CS3278 [The New Geography of the Information Age] 
+              and CS1203 [Data Structures-I] in the fall and spring of 2022 respectively.
+
+- title: Research Assistant, CHART
+  from: April 2022
+  to: Present
+  description: I am an undergraduate research assistant at the Centre for Healthcare Analytics, Research, and Trends 
+              at Ashoka University. I work under Professor Subashis Banerjee and professor Rintu Kutum to apply 
+              Computer Vision and Deep learning to various healthcare problems, primarily in the indian context.

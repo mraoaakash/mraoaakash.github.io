@@ -12,7 +12,7 @@ dribbble:
   color : 444444
 
 email:
-  url   : "mailto:"
+  url   : "mailto: aakash.rao_ug23@ashoka.edu.in"
   icon  : fas fa-envelope
   color : db4437
 
@@ -22,7 +22,7 @@ facebook:
   color : 3b5998
 
 github:
-  url   : https://www.github.com/
+  url   : https://www.github.com/mraoaakash
   icon  : fab fa-github
   color : 333333
 
@@ -32,7 +32,7 @@ gitlab:
   color : fca326
 
 instagram:
-  url   : https://www.instagram.com/
+  url   : https://www.instagram.com/mraoaakash
   icon  : fab fa-instagram
   color : 405de6
   
@@ -42,7 +42,7 @@ kaggle:
   color : 20beff
 
 linkedin:
-  url   : https://www.linkedin.com/in/
+  url   : https://www.linkedin.com/in/mraoaakash
   icon  : fab fa-linkedin-in
   color : 007bb5
 
@@ -57,7 +57,7 @@ soundcloud:
   color : ff8800
 
 spotify:
-  url   : https://open.spotify.com/user/
+  url   : https://open.spotify.com/user/mraoaakash
   icon  : fab fa-spotify
   color : 1db954
 
@@ -77,7 +77,7 @@ twitch:
   color : 6441a5
 
 twitter:
-  url   : https://www.twitter.com/
+  url   : https://www.twitter.com/mraoaakash
   icon  : fab fa-twitter
   color : 1da1f2
 
