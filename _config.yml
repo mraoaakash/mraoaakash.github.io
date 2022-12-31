@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Aakash Rao
-  image             : /assets/profile_image.jpg
+  image             : https://github.com/mraoaakash/mraoaakash.github.io/blob/4a559e1c1d7092d0badd194f35c0830c72dd2a7e/profileimage.jpg
   # behance           : your_username
 # dribbble          : your_username
   email             : aakash.rao_ug23@ashoka.edu.in
