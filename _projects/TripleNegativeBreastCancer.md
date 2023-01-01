@@ -13,4 +13,6 @@ We are working to classify and quantify Triple Negative Breast Cancer, a particu
 
 Our project is in collaboration with IISER Pune and Max Hospital with both serving as sources for our data. All the data recieved is private and hence not available to the public. However, our final models would be evaluated against publicly available datasets for benchmarking. 
 
-The six of us working on this project have various contributions to each element of the processes explored and hence, I will be useing the collective pronoun 'we' to refer to the progress made and tasks completed. I will periodicaly be updating this page with our progress.
+We are approaching the problem at hand using two foundational methods, the first being from a classification point of view and a second in terms of semantic segmentation.
+
+I have implemented various methods of segmentation and classification on our dataset. Due to the sensitivity of this data, I can not share the findings at this moment. However, we hope to be able to make our findings public soon.
