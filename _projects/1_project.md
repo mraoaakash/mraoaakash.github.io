@@ -2,7 +2,7 @@
 layout: page
 title: ORCHID
 description: The ORal Cancer Histology Dataset
-img: assets/img/orchid.png
+img: assets/img/ORCHID.png
 importance: 4
 category: work
 ---
