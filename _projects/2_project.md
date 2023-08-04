@@ -2,7 +2,7 @@
 layout: page
 title: Oral Cancer Classifier
 description: Grade-level classification of oral squamous cell carcinoma (OSCC) from digital pathology using ensemble deep learning algorithms
-img:
+img: assets/img/projects/OCimg.png
 importance: 3
 category: work
 ---
