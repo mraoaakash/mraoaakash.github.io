@@ -1,7 +1,10 @@
 ---
-layout: post
-title: cv
+layout: page
+permalink: /cv/
+title: Vitaé
+description: My CV
 nav: true
 nav_order: 4
-redirect: https://www.google.com
 ---
+
+You can find the pdf to my resume [here](https://mraoaakash.github.io/).
