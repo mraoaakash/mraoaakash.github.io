@@ -1,13 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: I have been a part of the teaching team in various courses, as shown below
 nav: true
 nav_order: 5
 ---
-
-I have been a part of the teaching team in various courses, as shown below
 
 ### Introduction to Machine Learning (TA)
 **CSL-2010 at Indian Institute of Technology (IIT), Jodhpur** | _May 2023 - August 2023 (Summer 2023)_    
