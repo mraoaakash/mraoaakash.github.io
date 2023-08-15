@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Applying Classification to TNBC'
+title: 'Classification in TNBC'
 description: "Applying classification based methods to Triple Negatice Breast Cancer to classify components of the tumor microenvironment."
 img: assets/img/projects/breast_cancer/breast_cancer.jpg
 importance: 4
