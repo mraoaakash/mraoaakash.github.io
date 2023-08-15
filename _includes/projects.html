@@ -15,8 +15,11 @@
         <div class="card-body">
           <h2 class="card-title text-capitalize">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {%- if project.github -%}
+          {%- if project.date -%}
+          <p class="card-text">{{ project.date }}</p>
+          {%- endif %}
+            <div class="row ml-1 mr-1 p-0">
+          {%- if project.github -%}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
