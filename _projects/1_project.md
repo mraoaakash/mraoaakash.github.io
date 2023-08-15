@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ORCHID"
-description: The ORal Cancer Histology Dataset: A comprehensive histopathology dataset for ML in Oral Cancer grade and stage detection.
+description: "The ORal Cancer Histology Dataset: A comprehensive histopathology dataset for ML in Oral Cancer grade and stage detection."
 img: assets/img/ORCHID.png
 importance: 4
 category: work
