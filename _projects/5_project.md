@@ -8,7 +8,7 @@ category: work
 ---
 
 ### Authors
-Gautam Ahuja[1], Aakash Rao[1], Diya Khurdiya[1], Shalini Balodi[1], Ashwin Salampuriya[1], Rintu Kutum[1,2,*]
+Gautam Ahuja[1], **Aakash Rao[1]**, Diya Khurdiya[1], Shalini Balodi[1], Ashwin Salampuriya[1], Rintu Kutum[1,2,*]
 
 ### Affiliations:
 1. Department of Computer Science, Ashoka University, Haryana, India 
