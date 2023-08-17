@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://cs.ashoka.edu.in/'>Ashoka University</a>. Sonipat India.
 
