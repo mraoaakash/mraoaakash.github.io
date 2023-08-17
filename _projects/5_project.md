@@ -54,7 +54,7 @@ The model was compiled using a categorical cross-entropy loss function, SGD opti
 </div>
 
 ### Code repository
-Github repository: https://github.com/rintukutum/dream-coda-tb-sc1-chsxashoka
+Github repository: [https://github.com/rintukutum/dream-coda-tb-sc1-chsxashoka](https://github.com/rintukutum/dream-coda-tb-sc1-chsxashoka)
 
 ### My Role
 I adviced on the project in terms of the design of the Artificial Neural Network as well as the benchmarking of other algorithms on the dataset.
