@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CODA-TB DREAM challenge"
+title: "CODA-TB DREAM"
 description: "We participated in a challenge to use audio recordings of cough to diagnose the presence of Tuberculosos in a patient."
 img: assets/img/projects/CODA/CODA_TB.jpg
 importance: 4
