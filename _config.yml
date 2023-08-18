@@ -123,9 +123,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: A space for Us. # blog_name will be displayed in your blog page
-blog_nav_title: Thoughts  # your blog must have a title for it to be displayed in the nav bar
-blog_description: You can get to know me better without meeting me here!
+blog_name:  # blog_name will be displayed in your blog page
+blog_nav_title:   # your blog must have a title for it to be displayed in the nav bar
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
