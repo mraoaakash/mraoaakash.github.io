@@ -7,8 +7,6 @@ importance: 4
 category: work
 ---
 
-**This work is currently under review at Nature, Scientific Data, all details will be made available publically as soon as the work as been made public.**
-### Authors
 Nisha Chaudhary [1], Arpita Rai [2], _**Aakash Madhav Rao [3]**_, Md Imam Faizan [1], Jeyaseelan Augustine [4], Akhilanand Chaurasia [5], Deepika Mishra [6], Akhilesh Chandra [7], Varnit Chauhan [1], Rintu Kutum [3,8], Tanveer Ahmad [1*]   
 
 ### Affiliations:
@@ -31,5 +29,13 @@ The code for the project can be found [here](https://github.com/ai-orchid/ORCHID
 ### My role:
 I carried out the organization and harmonization of the data into a format that is ready for modelling. I carried out the technical validation process and benchmarked various models to evaluate the dataset performance.
 
+
 ### License
 This work has been licensed under the Creative Commons CC BY-NC 4.0 license.
+
+Below is the work currently submitted at Scientific Data, Nature, and available on medRxiv:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/pdf/ORCHID.pdf" title="ORCHID Paper" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
