@@ -17,7 +17,7 @@ This is an elective requirement offered during the summer semester at IIT Jodhpu
 
 
 ### The New Geography of the Information Age (TA)
-**CS-2379 at Ashoka University** | _January 2023 - May (Spring 2023) 2023 **and** January 2022 - May 2022 (Spring 2023)_    
+**CS-2378 at Ashoka University** | _January 2023 - May (Spring 2023) 2023 **and** January 2022 - May 2022 (Spring 2023)_    
 Professor: Prof. Debayan Gupta  
 This course focussed on socio-technical problems caused by humanity blindly stumbling its way into the Information Age. Our new world has new rules: intellectual property looks different, cyber-crime looms large, cold cyber-warfare persists at a nation-state level, planet-scale surveillance is commonplace, we're all about to lose our jobs to robots, and the list goes on. This was a large cohort with over 180 students.
 - I handled discussion sections to have more student interaction owing to large class sizes
