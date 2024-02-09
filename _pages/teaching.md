@@ -8,9 +8,11 @@ nav_order: 5
 ---
 
 ### Design and Analysis of Algorithms (TA)
+
 **CS-1206 at Ashoka University, Sonipat** | _January 2024 - May 2024 (Spring 2024)_    
 Professor: Prof. Anirban Sen 
 This course is a core component of Computer Science at Ashoka and around the world. This course is ongoing.
+
 ----
 
 ### Introduction to Machine Learning (TA)
