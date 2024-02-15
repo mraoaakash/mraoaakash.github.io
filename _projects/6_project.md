@@ -23,8 +23,8 @@ I carried out the entire processing and modelling framework and built the tracke
 
 ### An illustration of the work
 <div style="display: flex;">
-    <img src="assets/video/raw-fish.gif" alt="First GIF" style="width: auto; height: auto;">
+    <img src="assets/img/projects/fishtrack/raw-fish.gif" alt="First GIF" style="width: auto; height: auto;">
 </div>
 <div style="display: flex;">
-    <img src="assets/video/tracked-fish.gif" alt="Second GIF" style="width: auto; height: auto;">
+    <img src="assets/img/projects/fishtrack/tracked-fish.gif" alt="Second GIF" style="width: auto; height: auto;">
 </div>
