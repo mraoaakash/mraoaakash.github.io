@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I got accepted into the MSc Artificial Intelligence and Machine Learning program at the University of Birmingham!
+I will be joining the University of Birmingham, later this fall as a master's student at the School of Computer Science.
