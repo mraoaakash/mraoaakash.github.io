@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://cs.ashoka.edu.in/'>Ashoka University</a>. Sonipat India.
+subtitle: <a href='https://www.birmingham.ac.uk/schools/computer-science'>University of Birmingham</a>. Sonipat India.
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Dept. Computer Science</p>
-    <p>Ashoka University</p>
-    <p>Sonipat, Haryana-131029</p>
+    <p>University of Birmingham</p>
+    <p>Edgbaston, UK - B15 2TT</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
