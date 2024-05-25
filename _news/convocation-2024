@@ -1,0 +1,15 @@
+---
+layout: post
+date: 2024-05-24 15:59:00-0400
+title: I graduated from Ashoka University with a Post-graduate Diploma
+inline: false
+related_posts: false
+---
+
+Here is me receiving my degree with the second highest latin honors, Magna Cum Laude, from the Chancellor of Ashoka University, Professor Rudrangshu Mukherjee.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/news/convocation-2024/mainpic.png" title="My Poster" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
