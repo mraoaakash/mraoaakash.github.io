@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.birmingham.ac.uk/schools/computer-science'>University of Birmingham</a>. Sonipat India.
+subtitle: <a href='https://www.birmingham.ac.uk/schools/computer-science'>University of Birmingham</a>, Edgbaston, UK - B15 2TT.
 
 profile:
   align: right
