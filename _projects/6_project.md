@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Animal Movement tracking"
+title: "Animal Tracking"
 description: "Tracking positional movement of Wild-type Zebrafish (Danio Rerio) to examine behavioural patterns using Computer Vision."
 img: assets/img/projects/fishtrack/ZEBRAFISH.png
 importance: 1
