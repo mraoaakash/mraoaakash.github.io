@@ -11,7 +11,7 @@ profile:
   address: >
     <p>Dept. Computer Science</p>
     <p>University of Birmingham</p>
-    <p>Edgbaston, United KingdomT</p>
+    <p>Edgbaston, United Kingdom</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
