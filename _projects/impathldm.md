@@ -18,11 +18,3 @@ The development of generative models in the past decade has allowed for hyperrea
 
 ### My Role
 I was the primary researcher in this project. I handled the entire research process under the guidance of Dr. Dabayan Gupta
-
-### An illustration of the work
-<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/fishtrack/raw-fish.gif" title="Un-tracked movement" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/fishtrack/tracked-fish.gif" title="Tracked movement" class="img-fluid rounded z-depth-1" %}
-</div>
