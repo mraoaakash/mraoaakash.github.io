@@ -7,7 +7,7 @@ subtitle: <a href='https://www.birmingham.ac.uk/schools/computer-science'>Univer
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>Dept. Computer Science</p>
     <p>University of Birmingham</p>
@@ -19,10 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m Aakash Madhav Rao, an aspiring PhD student with a strong background in artificial intelligence and machine learning. Currently pursuing an MSc in AI and Machine Learning at the University of Birmingham, my research focuses on applying machine learning techniques to healthcare and neuroethology. I have developed high-precision models and contributed to projects exploring the potential of AI in scientific discovery.
+I trained as a computer scientist at Ashoka University and have grown into an applied machine learner through a multitude of research experiences over the past five years. My love for ML and Medicine has led me down a fascinating route to building interpretable models for biomedical imaging applications. I am completing my MSc in Machine Learning and Artificial Intelligence at the University of Birmingham, where I research interpretable generative models for breast cancer histopathology image generation. My research interests span multi-modal learning, medical computer vision, ML-aided clinical decision-making, and foundation models for biomedical applications.
 
-In previous roles, I've led research teams, presented findings at international conferences, and co-authored manuscripts in machine learning and medical imaging. I’m passionate about advancing AI’s role in improving patient outcomes and understanding complex biological systems, and I am excited to explore opportunities in PhD programs starting Fall 2025.
 
 ### Links  
-- [GitHub Pages](https://mraoaakash.github.io/)  
 - [LinkedIn](https://www.linkedin.com/in/mraoaakash/)  
+- [Scholar]([https://www.linkedin.com/in/mraoaakash/](https://scholar.google.com/citations?user=CUw8Iw8AAAAJ&hl=en))  
