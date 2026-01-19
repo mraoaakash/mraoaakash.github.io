@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our consortium [manuscript](https://www.medrxiv.org/content/10.1101/2024.05.13.24306584v1) on the CODA-TB Dream Challenge just went up on medRXiv.
+Aakash's consortium [manuscript](https://www.medrxiv.org/content/10.1101/2024.05.13.24306584v1) on the CODA-TB Dream Challenge just went up on medRXiv.
