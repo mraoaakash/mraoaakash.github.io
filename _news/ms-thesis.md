@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I successfully defended my MSc thesis studying the controlled synthesis of high-resolution histopathology images.
+Aakash successfully defended his MSc thesis studying the controlled synthesis of high-resolution histopathology images.
