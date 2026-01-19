@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be joining the University of Birmingham, later this fall as a master's student at the School of Computer Science.
+Aakash will be joining the University of Birmingham, later this fall as a master's student at the School of Computer Science.
