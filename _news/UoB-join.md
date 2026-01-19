@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined the University of Birmingham to pursue an MSc in Artificial Intelligence and Machine Learning. 
+Aakash joined the University of Birmingham to pursue an MSc in Artificial Intelligence and Machine Learning. 
