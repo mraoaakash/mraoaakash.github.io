@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was awarded the Singapore International pre-graduate Award ([SIPGA](https://www.a-star.edu.sg/Scholarships/for-undergraduate-studies/singapore-international-pre-graduate-award-sipga)) for 2023
+Aakash was awarded the Singapore International pre-graduate Award ([SIPGA](https://www.a-star.edu.sg/Scholarships/for-undergraduate-studies/singapore-international-pre-graduate-award-sipga)) for 2023
