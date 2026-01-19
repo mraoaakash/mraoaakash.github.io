@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.birmingham.ac.uk/schools/computer-science'>University of Birmingham</a>, Edgbaston, UK.
+subtitle: University of Warwick, Coventry, UK.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Dept. Computer Science</p>
-    <p>University of Birmingham</p>
-    <p>Edgbaston, United Kingdom</p>
+    <p>Tissue Image Analytics (TIA) Centre</p>
+    <p>University of Warwick</p>
+    <p>Coventry, United Kingdom</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,9 +19,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I trained as a computer scientist at Ashoka University and have grown into an applied machine learner through a multitude of research experiences over the past five years. My love for ML and Medicine has led me down a fascinating route to building interpretable models for biomedical imaging applications. I am completing my MSc in Machine Learning and Artificial Intelligence at the University of Birmingham, where I research interpretable generative models for breast cancer histopathology image generation. My research interests span multi-modal learning, medical computer vision, ML-aided clinical decision-making, and foundation models for biomedical applications.
-
-
-### Links  
-- [LinkedIn](https://www.linkedin.com/in/mraoaakash/)  
-- [Scholar]([https://www.linkedin.com/in/mraoaakash/](https://scholar.google.com/citations?user=CUw8Iw8AAAAJ&hl=en))  
+Aakash is currently a doctoral student advised by Dr ![Fayyaz ul Amir Afsar Minhas](https://warwick.ac.uk/fac/sci/dcs/people/fayyaz_minhas/) at the ![Tissue Image Analytics Centre (TIA) Centre](https://warwick.ac.uk/fac/cross_fac/tia/), under the School of Computer Science at the University of Warwick. Aakash’s work focuses on developing machine-learning methods for computational pathology, particularly analysing whole-slide histopathology images to discover clinically relevant biomarkers and improve disease characterisation, as part of a joint industry–academia project with GSK. Previously, Aakash completed a MSc in Artificial Intelligence and Machine Learning from the University of Birmingham and a PgD and BSc from Ashoka University.
