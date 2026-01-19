@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I achieved a distinction in my master's degree at the University of Birmingham.
+Aakash achieved a distinction in his master's degree at the University of Birmingham.
