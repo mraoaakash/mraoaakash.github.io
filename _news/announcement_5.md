@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My work on a comprehensive oral cancer pathological image dataset became public!
+Aakash's work on a comprehensive oral cancer pathological image dataset became public!
