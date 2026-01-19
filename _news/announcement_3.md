@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My team and I placed 6th on the CODA-TB DREAM Challenge. 
+Aakash and his team placed 6th on the CODA-TB DREAM Challenge. 
