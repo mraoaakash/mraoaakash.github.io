@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on a high-resolution oral cancer image dataset was published at ([Nature](https://www.nature.com/articles/s41597-024-03836-6)).
+Aakash's work on a high-resolution oral cancer image dataset was published at ([Nature](https://www.nature.com/articles/s41597-024-03836-6)).
