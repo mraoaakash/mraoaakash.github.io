@@ -1,0 +1,12 @@
+{
+  "name": "mraoaakash.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for GitHub Pages with local live reload",
+  "scripts": {
+    "dev": "live-server --port=8000 --no-browser"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

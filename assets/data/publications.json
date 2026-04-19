@@ -1,0 +1,109 @@
+[
+  {
+    "id": "CODAATB-DREAM-Challenge",
+    "title": "Accelerating cough-based algorithms for pulmonary tuberculosis screening: Results from the CODA TB DREAM Challenge",
+    "content": "Devan Jaganath, Solveig K Sieberts,  ..., Aakash Rao (In the CODA TB DREAM Consortium)",
+    "link": "https://doi.org/10.1093/ofid/ofaf572",
+    "publisher": "Open Forum Infectious Diseases, Volume 12, Issue 10, October 2025,",
+    "image": "assets/images/publications/coda.png",
+    "tags": ["key_publications", "journal"],
+    "buttons": [
+        {
+            "id": 1,
+            "title": "Publisher",
+            "link": "https://doi.org/10.1093/ofid/ofaf572"
+        },
+        {
+            "id": 2,
+            "title": "Data",
+            "link": "https://www.synapse.org/TBcough"
+        },
+        {
+            "id": 3,
+            "title": "PDF",
+            "link": "https://academic.oup.com/ofid/article-pdf/12/10/ofaf572/64285271/ofaf572.pdf"
+        }
+    ],
+    "created_at": 1767225600,
+    "updated_at": 1767225600
+  },
+  {
+    "id": "ORCHID",
+    "title": "High-resolution AI image dataset for diagnosing oral submucous fibrosis and squamous cell carcinoma",
+    "content": "Nisha Chaudhary, Arpita Rai, Aakash Madhav Rao, Md Imam Faizan, Jeyaseelan Augustine, Akhilanand Chaurasia, Deepika Mishra, Akhilesh Chandra, Varnit Chauhan & Tanveer Ahmad",
+    "link": "https://doi.org/10.1038/s41597-024-03836-6",
+    "publisher": "Nature, Scientific Data, September 2024",
+    "image": "assets/images/publications/orchid.png",
+    "tags": ["key_publications", "journal"],
+    "buttons": [
+        {
+            "id": 1,
+            "title": "Publisher",
+            "link": "https://doi.org/10.1038/s41597-024-03836-6"           
+        },
+        {
+            "id": 2,
+            "title": "Code",
+            "link": "https://github.com/ai-orchid/ORCHID"           
+        },
+        {
+            "id": 3,
+            "title": "PDF",
+            "link": "https://www.nature.com/articles/s41597-024-03836-6.pdf"
+        }
+    ],
+    "created_at": 1735689600,
+    "updated_at": 1735689600
+  },
+  {
+    "id": "pub-template-3",
+    "title": "Improving text-conditioned latent diffusion for cancer pathology",
+    "content": "Aakash Madhav Rao, Debayan Gupta",
+    "link": "https://doi.org/10.48550/arXiv.2412.06487",
+    "publisher": "arXiv preprint, December 2024",
+    "image": "assets/images/publications/diffusion.png",
+    "tags": ["key_publications","preprint"],
+    "buttons": [
+        {
+            "id": 1,
+            "title": "Publisher",
+            "link": "https://doi.org/10.48550/arXiv.2412.06487"           
+        },
+        {
+            "id": 2,
+            "title": "PDF",
+            "link": "https://arxiv.org/pdf/2412.06487.pdf"
+        }
+    ],
+    "created_at": 1704067200,
+    "updated_at": 1704067200
+  },
+  {
+    "id": "EcoAdv",
+    "title": "Social isolation reduces metabolic rate and social preference in Wild-type Zebrafish (Danio rerio)",
+    "content": "Arpita Ghosh, Aakash Madhav Rao, Prarthna Middha, Shambhavi Rai, Bittu Kaveri Rajaraman",
+    "link": "https://doi.org/10.1101/2024.11.22.624675",
+    "publisher": "arXiv preprint, November 2024",
+    "image": "assets/images/publications/ecoadv.png",
+    "tags": ["preprint"],
+    "buttons": [
+        {
+            "id": 1,
+            "title": "Publisher",
+            "link": "https://doi.org/10.1101/2024.11.22.624675"           
+        },
+        {
+            "id": 2,
+            "title": "Code",
+            "link": "https://github.com/mraoaakash/EcoAdvDep"
+        },
+        {
+            "id": 3,
+            "title": "PDF",
+            "link": "https://www.biorxiv.org/content/10.1101/2024.11.22.624675v1.full.pdf"
+        }
+    ],
+    "created_at": 1704067200,
+    "updated_at": 1704067200
+  }
+]

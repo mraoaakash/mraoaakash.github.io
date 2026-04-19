@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "key_publications",
+    "title": "Key Publications",
+    "created_at": 1767225600,
+    "updated_at": 1767225600
+  },
+  {
+    "id": 2,
+    "name": "conference",
+    "title": "Conference",
+    "created_at": 1767225600,
+    "updated_at": 1767225600
+  },
+  {
+    "id": 3,
+    "name": "journal",
+    "title": "Journal",
+    "created_at": 1767225600,
+    "updated_at": 1767225600
+  },
+  {
+    "id": 4,
+    "name": "preprint",
+    "title": "Preprint",
+    "created_at": 1767225600,
+    "updated_at": 1767225600
+  }
+]

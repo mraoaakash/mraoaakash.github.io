@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random</title>
+  <meta name="description" content="Random page for Aakash Rao's website.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="random-page">
+  <nav class="topbar">
+    <div class="container topbar-inner">
+      <a class="site-name" href="index.html">Aakash Rao</a>
+      <div class="topbar-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+        <div class="menu-dropdown">
+          <button class="menu-button" id="menuToggle" aria-label="Toggle menu" aria-haspopup="true" aria-expanded="false" aria-controls="topMenu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            <span>Menu</span>
+          </button>
+          <ul class="menu-list" id="topMenu" hidden>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="random.html">Random</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container cv-main">
+    <header class="random-page-head">
+      <h1>Random</h1>
+    </header>
+    <div class="random-windows">
+      <section class="cv-section random-weather" id="weatherRefreshArea" aria-labelledby="weather-title" role="button" tabindex="0" aria-label="Random Weather. Click to refresh weather">
+        <div class="weather-head">
+          <h2 id="weather-title">Random Weather</h2>
+        </div>
+        <div class="weather-map" id="weatherMap" aria-label="Map for current random weather location"></div>
+        <p class="weather-status" id="weatherStatus">Fetching weather for a random location...</p>
+        <div class="weather-grid" id="weatherGrid" hidden>
+          <p class="weather-row"><span class="weather-label"><i class="fa-solid fa-location-dot weather-name-icon" aria-label="Location"></i></span><span class="weather-value" id="weatherLocation">--</span></p>
+          <p class="weather-row"><span class="weather-label"><i id="weatherIcon" class="fa-solid fa-cloud weather-name-icon" aria-label="Condition"></i></span><span class="weather-value" id="weatherCondition">--</span></p>
+          <p class="weather-row"><span class="weather-label"><i class="fa-solid fa-temperature-three-quarters weather-name-icon" aria-label="Temperature"></i></span><span class="weather-value"><span id="weatherTemperature">--</span><span id="weatherFeelsLike"></span></span></p>
+          <p class="weather-row"><span class="weather-label"><i class="fa-solid fa-wind weather-name-icon" aria-label="Wind"></i></span><span class="weather-value" id="weatherWind">--</span></p>
+        </div>
+      </section>
+
+      <section class="cv-section random-f1" id="f1RefreshArea" aria-labelledby="f1-title" role="button" tabindex="0" aria-label="Random Formula 1 podium. Click to refresh race results">
+        <div class="f1-head">
+          <h2 id="f1-title">Random F1 Podium</h2>
+        </div>
+        <p class="f1-race-label" id="f1RaceLabel">--</p>
+        <p class="f1-status" id="f1Status">Fetching random race results...</p>
+        <ol class="f1-podium" id="f1Podium" hidden></ol>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Aakash Rao · Last updated: <span class="last-updated">--</span></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

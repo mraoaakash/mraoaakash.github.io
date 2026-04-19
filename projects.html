@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Aakash Rao</title>
+  <meta name="description" content="Projects by Aakash Rao.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="container topbar-inner">
+      <a class="site-name" href="index.html">Aakash Rao</a>
+      <div class="topbar-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+        <div class="menu-dropdown">
+          <button class="menu-button" id="menuToggle" aria-label="Toggle menu" aria-haspopup="true" aria-expanded="false" aria-controls="topMenu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            <span>Menu</span>
+          </button>
+          <ul class="menu-list" id="topMenu" hidden>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="random.html">Random</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <p class="tag">Page</p>
+      <h1>Projects</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="project-list">
+      <a class="project-item-link" href="projects/project-orchid.html">
+        <article class="project-item" id="project-orchid">
+          <img src="assets/projects-live/orchid.png" alt="The ORCHID dataset project image">
+          <div>
+            <h2>The ORCHID dataset</h2>
+            <p>The ORal Cancer Histology Dataset: A comprehensive histopathology dataset for ML in Oral Cancer grade and stage detection.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="project-item-link" href="projects/project-oral-cancer.html">
+        <article class="project-item" id="project-oral-cancer">
+          <img src="assets/projects-live/oral-cancer.jpg" alt="Oral Cancer Classifier project image">
+          <div>
+            <h2>Oral Cancer Classifier</h2>
+            <p>Grade-level classification of oral squamous cell carcinoma from histopathology using deep-learning algorithms.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="project-item-link" href="projects/project-coda-tb-dream.html">
+        <article class="project-item" id="project-coda">
+          <img src="assets/projects-live/coda-tb.png" alt="CODA-TB DREAM project image">
+          <div>
+            <h2>CODA-TB DREAM</h2>
+            <p>We participated in a DREAM challenge to use audio recordings of cough to diagnose the presence of Tuberculosos in a patient.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="project-item-link" href="projects/project-animal-tracking.html">
+        <article class="project-item" id="project-animal-tracking">
+          <img src="assets/projects-live/zebrafish.png" alt="Animal Tracking project image">
+          <div>
+            <h2>Animal Tracking</h2>
+            <p>Tracking positional movement of Wild-type Zebrafish (Danio Rerio) to examine behavioural patterns using Computer Vision.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="project-item-link" href="projects/project-impathldm.html">
+        <article class="project-item" id="project-impathldm">
+          <img src="assets/projects-live/impathldm.png" alt="Improved Latent Diffusion Models project image">
+          <div>
+            <h2>Improved Latent Diffusion Models</h2>
+            <p>Improving text-conditioned latent diffusion models for breast cancer histopathology in a large scale cohort.</p>
+          </div>
+        </article>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Aakash Rao · Last updated: <span class="last-updated">--</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

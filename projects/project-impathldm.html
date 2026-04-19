@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Improved Latent Diffusion Models | Aakash Rao</title>
+  <meta name="description" content="Improved Latent Diffusion Models project.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="container topbar-inner">
+      <a class="site-name" href="../index.html">Aakash Rao</a>
+      <div class="topbar-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+        <div class="menu-dropdown">
+          <button class="menu-button" id="menuToggle" aria-label="Toggle menu" aria-haspopup="true" aria-expanded="false" aria-controls="topMenu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            <span>Menu</span>
+          </button>
+          <ul class="menu-list" id="topMenu" hidden>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../publications.html">Publications</a></li>
+            <li><a href="../cv.html">CV</a></li>
+            <li><a href="../random.html">Random</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <p class="tag">Project</p>
+      <h1>Improved Latent Diffusion Models</h1>
+      <p class="subtitle">Improving text-conditioned latent diffusion models for breast cancer histopathology in a large scale cohort.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <img class="project-detail-image project-banner-image" src="../assets/projects-live/impathldm.png" alt="Improved Latent Diffusion Models image">
+
+      <h2>Authors</h2>
+      <p>Aakash M. Rao [1], Debayan Gupta [1]</p>
+
+      <h2>Affiliations</h2>
+      <ol>
+        <li>Department of Psychology, Ashoka University</li>
+      </ol>
+
+      <h2>Aim</h2>
+      <p>The development of generative models in the past decade has allowed for hyperrealistic data synthesis. While potentially beneficial, this synthetic data generation process has been relatively underexplored in cancer histopathology. One algorithm for synthesising a realistic image is diffusion; it iteratively converts an image to noise and learns the recovery process from this noise [Wang and Vastola, 2023]. While effective, it is highly computationally expensive for high-resolution images, rendering it infeasible for histopathology. The development of Variational Autoencoders (VAEs) has allowed us to learn the representation of complex high-resolution images in a latent space. A vital by-product of this is the ability to compress high-resolution images to space and recover them lossless. The marriage of diffusion and VAEs allows us to carry out diffusion in the latent space of an autoencoder, enabling us to leverage the realistic generative capabilities of diffusion while maintaining reasonable computational requirements. Rombach et al. [2021b] and Yellapragada et al. [2023] build foundational models for this task, paving the way to generate realistic histopathology images. In this paper, we discuss the pitfalls of current methods, namely [Yellapragada et al., 2023] and resolve critical errors while proposing improvements along the way. Our methods achieve an FID score of 21.11, beating its SOTA counterparts in [Yellapragada et al., 2023] by 1.2 FID, while presenting a train-time GPU memory usage reduction of 7%.</p>
+
+      <h2>My role</h2>
+      <p>I was the primary researcher in this project. I handled the entire research process under the guidance of Dr. Dabayan Gupta.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Aakash Rao · Last updated: <span class="last-updated">--</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

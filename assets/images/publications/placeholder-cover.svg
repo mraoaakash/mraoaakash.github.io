@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Publication Placeholder Cover</title>
+  <desc id="desc">Template image for publication entries</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f4f6" />
+      <stop offset="100%" stop-color="#e5e7eb" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)" />
+  <rect x="75" y="90" width="750" height="1020" rx="24" ry="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="6" />
+  <text x="450" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#0f172a">Publication</text>
+  <text x="450" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#0f172a">Cover</text>
+  <text x="450" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#475569">Replace in assets/data/publications.json</text>
+</svg>

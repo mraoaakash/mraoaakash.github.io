@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The ORCHID Dataset | Aakash Rao</title>
+  <meta name="description" content="The ORCHID dataset project.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="container topbar-inner">
+      <a class="site-name" href="../index.html">Aakash Rao</a>
+      <div class="topbar-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+        <div class="menu-dropdown">
+          <button class="menu-button" id="menuToggle" aria-label="Toggle menu" aria-haspopup="true" aria-expanded="false" aria-controls="topMenu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            <span>Menu</span>
+          </button>
+          <ul class="menu-list" id="topMenu" hidden>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../publications.html">Publications</a></li>
+            <li><a href="../cv.html">CV</a></li>
+            <li><a href="../random.html">Random</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <p class="tag">Project</p>
+      <h1>The ORCHID dataset</h1>
+      <p class="subtitle">The ORal Cancer Histology Dataset: A comprehensive histopathology dataset for ML in Oral Cancer grade and stage detection.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <img class="project-detail-image project-banner-image" src="../assets/projects-live/orchid.png" alt="The ORCHID dataset image">
+      <h2>Authors</h2>
+      <p>Nisha Chaudhary [1], Arpita Rai [2], <strong>Aakash Madhav Rao [3]</strong>, Md Imam Faizan [1], Jeyaseelan Augustine [4], Akhilanand Chaurasia [5], Deepika Mishra [6], Akhilesh Chandra [7], Varnit Chauhan [1], Rintu Kutum [3,8], Tanveer Ahmad [1*]</p>
+
+      <h2>Affiliations</h2>
+      <ol>
+        <li>Multidisciplinary Centre for Advanced Research and Studies, Jamia Millia Islamia, New Delhi, India</li>
+        <li>Rajendra Institute of Medical Sciences., Ranchi, Jharkhand, India</li>
+        <li>Department of Computer Science, Ashoka University, Haryana, India</li>
+        <li>Maulana Azad Institute of Dental Sciences, New Delhi, India</li>
+        <li>King George Medical University, Lucknow, Uttar Pradesh, India</li>
+        <li>All India Institute of Medical Sciences, New Delhi, India</li>
+        <li>Banaras Hindu University, Uttar Pradesh, India</li>
+        <li>Trivedi School of Biosciences, Ashoka University, Haryana, India</li>
+      </ol>
+      <p>*. Corresponding Author</p>
+
+      <h2>Abstract</h2>
+      <p>Oral cancer is a global health challenge with a difficult histopathological diagnosis. The accurate histopathological interpretation of oral cancer tissue samples remains difficult. However, early diagnosis is very challenging due to a lack of experienced pathologists and inter-observer variability in diagnosis. The application of artificial intelligence (deep learning algorithms) for oral cancer histology images is very promising for rapid diagnosis. However, it requires a quality annotated dataset to build AI models. We present ORCHID (ORal Cancer Histology Image Database), a specialized database generated to advance research in AI-based histology image analytics of oral cancer and precancer. The ORCHID database is an extensive multicenter collection of 300,000 image patches, encapsulating various oral cancer and precancer categories, such as oral submucous fibrosis (OSMF) and oral squamous cell carcinoma (OSCC). Additionally, it also contains grade-level sub-classifications for OSCC, such as well-differentiated (WD), moderately-differentiated (MD), and poorly-differentiated (PD). Furthermore, the database seeks to bolster the creation and validation of innovative artificial intelligence-based rapid diagnostics for OSMF and OSCC, along with subtypes.</p>
+
+      <p>The code for the project can be found <a href="https://github.com/ai-orchid/ORCHID" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+      <h2>My role</h2>
+      <p>I carried out the organization and harmonization of the data into a format that is ready for modelling. I carried out the technical validation process and benchmarked various models to evaluate the dataset performance.</p>
+
+      <h2>License</h2>
+      <p>This work has been licensed under the Creative Commons CC BY-NC 4.0 license.</p>
+
+      <p>Submitted at Scientific Data, Nature, and available on medRxiv:</p>
+      <p><a href="../assets/projects-live/ORCHID.pdf" target="_blank" rel="noopener noreferrer">Open ORCHID paper (PDF)</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Aakash Rao · Last updated: <span class="last-updated">--</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
