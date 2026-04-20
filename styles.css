@@ -403,16 +403,112 @@ h1 {
   border-radius: 0.2rem;
   background: var(--news-badge-bg);
   color: var(--news-badge-text);
-  margin-right: 0.35rem;
   font-weight: 600;
 }
 
 .news-item p {
   margin: 0;
   line-height: 1.45;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.35rem;
+  align-items: start;
+}
+
+.news-text {
+  display: block;
+  min-width: 0;
 }
 
 .news-item p:not(.news-date) {
+  color: var(--muted);
+}
+
+.news-more {
+  margin: 0.75rem 0 0;
+}
+
+.news-main {
+  padding-top: 1.6rem;
+  padding-bottom: 4rem;
+}
+
+.news-page .news-section {
+  margin-top: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.news-page-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-bottom: 0.85rem;
+}
+
+.news-page-heading h1 {
+  margin: 0;
+  color: var(--strong);
+}
+
+.news-count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.news-page .news-scroll {
+  max-height: none;
+  overflow: visible;
+  padding-right: 0;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.news-page .news-scroll::before {
+  content: "";
+  position: absolute;
+  left: 0.28rem;
+  top: 0.15rem;
+  bottom: 0.15rem;
+  width: 1px;
+  background: var(--control-border-hover);
+}
+
+[data-theme="dark"] .news-page .news-scroll::before {
+  background: var(--border);
+}
+
+.news-page .news-item {
+  position: relative;
+}
+
+.news-page .news-item::before {
+  content: "";
+  position: absolute;
+  left: -0.84rem;
+  top: 0.55rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--bg);
+}
+
+.news-page .news-item-image,
+.news-page .news-item-gif {
+  display: block;
+  width: min(100%, 30rem);
+  height: auto;
+  margin-top: 0.55rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.news-empty {
   color: var(--muted);
 }
 
@@ -1297,6 +1393,12 @@ code {
   .news-scroll {
     max-height: 12.25rem;
     padding-right: 0.2rem;
+  }
+
+  .news-page-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
   }
 
   .social-links {

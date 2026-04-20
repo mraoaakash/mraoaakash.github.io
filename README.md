@@ -20,7 +20,7 @@ Then open: `http://localhost:8000`
 If you want a no-dependency fallback:
 
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 9100
 ```
 
 ## Deploy to GitHub Pages

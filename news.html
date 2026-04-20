@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications | Aakash Rao</title>
-  <meta name="description" content="Publications by Aakash Rao.">
+  <title>News | Aakash Rao</title>
+  <meta name="description" content="Latest news and updates from Aakash Rao.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="publications-page">
+<body class="news-page">
   <nav class="topbar">
     <div class="container topbar-inner">
       <a class="site-name" href="index.html">Aakash Rao</a>
@@ -34,38 +34,13 @@
     </div>
   </nav>
 
-  <main class="container pub-main">
-    <section class="pub-section" aria-labelledby="pub-title">
-      <div class="pub-heading">
-        <h1 id="pub-title">Publications</h1>
-        <hr>
+  <main class="container news-main">
+    <section class="news-section" aria-labelledby="news-page-title">
+      <div class="news-page-heading">
+        <h1 id="news-page-title">News</h1>
+        <p class="news-count" id="newsCount" aria-live="polite"></p>
       </div>
-
-      <div class="pub-key-carousel" aria-label="Key publications carousel">
-        <button class="pub-arrow" id="pubPrev" aria-label="Previous publications">
-          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
-        </button>
-        <div class="pub-key-track-wrap" id="pubKeyTrackWrap">
-          <div class="pub-key-track" id="pubKeyTrack"></div>
-        </div>
-        <button class="pub-arrow" id="pubNext" aria-label="Next publications">
-          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      <div class="pub-tags" id="pubTags"></div>
-
-      <div class="pub-filter-row">
-        <div class="pub-search">
-          <input type="text" id="pubSearchInput" class="pub-search-input" placeholder="Search...">
-          <button id="pubSearchBtn" class="pub-search-btn" aria-label="Search publications">
-            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-          </button>
-        </div>
-        <button id="pubResetBtn" class="pub-reset-btn">Reset</button>
-      </div>
-
-      <ul class="pub-list" id="pubList" aria-live="polite"></ul>
+      <div class="news-scroll" id="newsList" aria-label="All news" aria-live="polite"></div>
     </section>
   </main>
 
@@ -75,7 +50,7 @@
     </div>
   </footer>
 
-  <script src="publications.js"></script>
+  <script src="news.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
