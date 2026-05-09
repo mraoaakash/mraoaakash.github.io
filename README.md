@@ -15,6 +15,12 @@ Then open: `http://localhost:8000`
 
 `live-server` watches files in this folder and automatically reloads the browser after each save.
 
+For the Python reload-on-save server:
+
+```bash
+npm run dev:reload
+```
+
 ## Run Locally (No Auto Reload)
 
 If you want a no-dependency fallback:

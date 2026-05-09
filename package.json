@@ -4,7 +4,8 @@
   "private": true,
   "description": "Static website for GitHub Pages with local live reload",
   "scripts": {
-    "dev": "live-server --port=8000 --no-browser"
+    "dev": "live-server --port=8000 --no-browser",
+    "dev:reload": "python3 scripts/reload_server.py --port 8000"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
