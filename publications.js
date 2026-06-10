@@ -9,6 +9,8 @@ const publicationsPrevButton = document.getElementById("pubPrev");
 const publicationsNextButton = document.getElementById("pubNext");
 
 const DEFAULT_PLACEHOLDER_COVER = "assets/images/publications/placeholder-cover.svg";
+const OPENALEX_WORKS_URL = "https://api.openalex.org/works";
+const OPENALEX_DOI_BATCH_SIZE = 50;
 
 const publicationsState = {
   items: [],
@@ -34,6 +36,47 @@ const isUsableLink = (link) => {
 
   const trimmed = link.trim();
   return trimmed.startsWith("http://") || trimmed.startsWith("https://") || trimmed.startsWith("mailto:");
+};
+
+const normalizeDoi = (value) => {
+  if (!value || typeof value !== "string") {
+    return "";
+  }
+
+  const trimmed = value.trim();
+  const doi = trimmed
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+    .replace(/^doi:/i, "")
+    .trim();
+
+  return doi ? doi.toLowerCase() : "";
+};
+
+const getDoiFromLink = (link) => {
+  if (!link || typeof link !== "string") {
+    return "";
+  }
+
+  const trimmed = link.trim();
+  if (/^https?:\/\/(dx\.)?doi\.org\//i.test(trimmed) || /^doi:/i.test(trimmed)) {
+    return normalizeDoi(trimmed);
+  }
+
+  return "";
+};
+
+const getPublicationDoi = (publication) => {
+  const primaryDoi = getDoiFromLink(publication.link);
+  if (primaryDoi) {
+    return primaryDoi;
+  }
+
+  if (!Array.isArray(publication.buttons)) {
+    return "";
+  }
+
+  const doiButton = publication.buttons.find((button) => button && getDoiFromLink(button.link));
+  return doiButton ? getDoiFromLink(doiButton.link) : "";
 };
 
 const getPublicationButtons = (publication) => {
@@ -135,6 +178,27 @@ const createTitleNode = (publication) => {
   return title;
 };
 
+const createCitationCountNode = (publication) => {
+  if (!Number.isInteger(publication.citationCount) || publication.citationCount < 0) {
+    return null;
+  }
+
+  const citation = document.createElement("span");
+  citation.className = "pub-citation-count";
+  citation.setAttribute("aria-label", `${publication.citationCount} citations`);
+
+  const icon = document.createElement("i");
+  icon.className = "fa-brands fa-google-scholar";
+  icon.setAttribute("aria-hidden", "true");
+
+  const count = document.createElement("span");
+  count.textContent = String(publication.citationCount);
+
+  citation.appendChild(icon);
+  citation.appendChild(count);
+  return citation;
+};
+
 const renderPublicationList = () => {
   if (!publicationsList) {
     return;
@@ -169,6 +233,11 @@ const renderPublicationList = () => {
     publisher.textContent = publication.publisher || "";
     body.appendChild(publisher);
 
+    const citationCount = createCitationCountNode(publication);
+    if (citationCount) {
+      body.appendChild(citationCount);
+    }
+
     const links = getPublicationButtons(publication);
     if (links.length > 0) {
       const buttons = document.createElement("div");
@@ -189,6 +258,53 @@ const renderPublicationList = () => {
 
     item.appendChild(body);
     publicationsList.appendChild(item);
+  });
+};
+
+const fetchOpenAlexCitationCounts = async () => {
+  const dois = Array.from(
+    new Set(publicationsState.items.map(getPublicationDoi).filter(Boolean))
+  );
+
+  if (dois.length === 0) {
+    return;
+  }
+
+  const citationCountsByDoi = new Map();
+
+  for (let index = 0; index < dois.length; index += OPENALEX_DOI_BATCH_SIZE) {
+    const doiBatch = dois.slice(index, index + OPENALEX_DOI_BATCH_SIZE);
+    const params = new URLSearchParams({
+      filter: `doi:${doiBatch.join("|")}`,
+      select: "doi,cited_by_count",
+      per_page: String(doiBatch.length)
+    });
+
+    const response = await fetch(`${OPENALEX_WORKS_URL}?${params.toString()}`, {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch OpenAlex citation counts.");
+    }
+
+    const payload = await response.json();
+    if (Array.isArray(payload.results)) {
+      payload.results.forEach((work) => {
+        const doi = normalizeDoi(work?.doi);
+        const citationCount = Number(work?.cited_by_count);
+        if (doi && Number.isInteger(citationCount) && citationCount >= 0) {
+          citationCountsByDoi.set(doi, citationCount);
+        }
+      });
+    }
+  }
+
+  publicationsState.items.forEach((publication) => {
+    const doi = getPublicationDoi(publication);
+    if (doi && citationCountsByDoi.has(doi)) {
+      publication.citationCount = citationCountsByDoi.get(doi);
+    }
   });
 };
 
@@ -352,6 +468,14 @@ const initializePublicationsPage = async () => {
     renderPublicationList();
     attachSearchHandlers();
     attachCarouselControls();
+
+    fetchOpenAlexCitationCounts()
+      .then(() => {
+        renderPublicationList();
+      })
+      .catch(() => {
+        // Citation counts are optional; keep the publication list visible if OpenAlex is unavailable.
+      });
   } catch (error) {
     renderLoadingError();
   }

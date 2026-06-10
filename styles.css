@@ -919,6 +919,17 @@ section {
   font-style: italic;
 }
 
+.pub-citation-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  width: fit-content;
+  margin-top: 0.42rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
 .pub-item-links {
   display: flex;
   gap: 0.45rem;
