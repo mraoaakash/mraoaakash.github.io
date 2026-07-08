@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WPCCS award placeholder">
+  <rect width="64" height="64" rx="12" fill="#fff9fd"/>
+  <path d="M20 15h24v18c0 7-5 13-12 16-7-3-12-9-12-16V15z" fill="#ead0ee" stroke="#8b1e78" stroke-width="3"/>
+  <path d="M26 30l4 4 9-10" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

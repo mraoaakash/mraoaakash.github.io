@@ -120,9 +120,14 @@ a:hover {
 }
 
 .site-name {
-  font-weight: 700;
-  color: var(--link);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text);
   text-decoration: none;
+}
+
+.site-name:visited {
+  color: var(--text);
 }
 
 .topbar-actions {
@@ -412,12 +417,16 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: var(--link);
+  color: var(--text);
   text-decoration: none;
 }
 
+.social-link:visited {
+  color: var(--text);
+}
+
 .social-link:hover {
-  color: var(--link-hover);
+  color: var(--text);
 }
 
 .social-link-logo {
@@ -552,6 +561,10 @@ section {
 
 .cv-li-org {
   color: var(--text);
+}
+
+.cv-award-body {
+  font-style: italic;
 }
 
 .cv-li-meta {

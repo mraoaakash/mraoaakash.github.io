@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="A*STAR award placeholder">
+  <rect width="64" height="64" rx="12" fill="#fff9fd"/>
+  <path d="M32 12l5.2 13.5L52 26.4 40.5 35.5 44.2 50 32 42 19.8 50l3.7-14.5L12 26.4l14.8-.9L32 12z" fill="#ead0ee" stroke="#8b1e78" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M32 23v11" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+</svg>
