@@ -11,5 +11,5 @@
   <rect x="75" y="90" width="750" height="1020" rx="24" ry="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="6" />
   <text x="450" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#0f172a">Publication</text>
   <text x="450" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#0f172a">Cover</text>
-  <text x="450" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#475569">Replace in assets/data/publications.json</text>
+  <text x="450" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#475569">Replace in content/publications.json</text>
 </svg>

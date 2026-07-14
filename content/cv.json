@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Research Experience",
+    "entries": [
+      { "title": "Doctoral Researcher", "organization": "University of Warwick", "dates": "Jan 2026 - Present", "logo": "assets/logos/uow.jpeg", "logo_alt": "University of Warwick logo", "flag": "GB-ENG", "flag_alt": "England flag", "bullets": ["PhD Student with the Predictive Systems in Biomedicine (PRISM) Lab at the Tissue Image Analytics (TIA) Centre."] },
+      { "title": "Visiting Researcher - Machine Learning (Object Detection)", "organization": "Neuroethology Laboratory", "dates": "May 2024 - Jan 2026", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University affiliate logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Coauthored a manuscript on depression-like behaviour in zebrafish using a pipeline to analyze 10 hours of data.", "Conducted statistical analyses to uncover context-specific advantages of behaviours typically perceived as unfavourable."] },
+      { "title": "Research Assistant - Generative AI", "organization": "University of Birmingham", "dates": "Nov 2024 - Mar 2025", "logo": "assets/logos/uob.png", "logo_alt": "University of Birmingham logo", "flag": "GB-ENG", "flag_alt": "England flag", "bullets": ["Worked on methods for text-conditioned oral cancer image synthesis.", "Leveraged cross-attention-based concept learning to improve embeddings.", "Used textual inversion, latent diffusion, and multi-concept-prompt-learning to improve diffusion model performance."] },
+      { "title": "Research Assistant - Generative AI", "organization": "Ashoka University", "dates": "Jan 2024 - May 2024", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Advised by Prof. Debayan Gupta.", "Enhanced a text-conditioned latent diffusion model, improving FID from 22.39 to 21.11 with 7% lower GPU memory usage.", "Conducted literature review and authored a pre-print manuscript under review."] }
+    ]
+  },
+  {
+    "title": "Teaching Experience",
+    "entries": [
+      { "title": "Teaching Assistant", "organization": "Ashoka University", "dates": "Jan 2024 - May 2024", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CS1206 - Design and Analysis of Algorithms.", "Focused on dynamic programming and competitive coding style problems.", "Graded assignments, quizzes, and exams, and streamlined discussions for effective learning."] },
+      { "title": "Teaching Assistant", "organization": "IIT Jodhpur, Rajasthan", "dates": "Jun 2023 - Sep 2023", "logo": "assets/logos/iitj.png", "logo_alt": "IIT Jodhpur logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CSL2010 - Introduction to Machine Learning.", "Graded assignments, quizzes, and exams; facilitated discussions."] },
+      { "title": "Teaching Assistant", "organization": "Ashoka University", "dates": "Jan 2023 - May 2023", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CS2378 - The New Geography of the Information Age.", "Supported development of technical student projects.", "Graded assignments, quizzes, and exams; facilitated classroom discussions."] },
+      { "title": "Teaching Assistant", "organization": "Ashoka University", "dates": "Sep 2022 - Dec 2022", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CS1230 - Data Structures 1.", "Focused on tree structures and dynamic programming.", "Graded assignments/exams and held tutorials and additional lectures."] },
+      { "title": "Teaching Assistant", "organization": "Ashoka University", "dates": "Jan 2022 - May 2022", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CS2378 - The New Geography of the Information Age.", "Focused on student research ideas related to surveillance and technology.", "Graded assignments, quizzes, and exams; facilitated effective discussions."] }
+    ]
+  },
+  {
+    "title": "Education",
+    "entries": [
+      { "title": "Doctor of Philosophy (PhD), Computer Science", "organization": "University of Warwick", "dates": "Jan 2026 - Jan 2030", "logo": "assets/logos/uow.jpeg", "logo_alt": "University of Warwick logo", "flag": "GB-ENG", "flag_alt": "England flag" },
+      { "title": "Master of Science (MS), Artificial Intelligence and Machine Learning", "organization": "University of Birmingham", "dates": "Jul 2024 - Sep 2025", "logo": "assets/logos/uob.png", "logo_alt": "University of Birmingham logo", "flag": "GB-ENG", "flag_alt": "England flag" },
+      { "title": "Postgraduate Degree, Computer Science", "organization": "Ashoka University", "dates": "May 2023 - May 2024", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag" },
+      { "title": "Bachelor's Degree, Computer Science", "organization": "Ashoka University", "dates": "Sep 2020 - May 2023", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag" }
+    ]
+  },
+  {
+    "title": "Honors-Awards",
+    "entries": [
+      { "title": "Presentation of the session", "organization": "Warwick Pathology Computing and Computer Science Symposium", "dates": "May 2026", "logo": "assets/logos/uow.jpeg", "logo_alt": "University of Warwick logo", "flag": "GB-ENG", "flag_alt": "England flag" },
+      { "title": "Distinction in MSc - AI/ML", "organization": "University of Warwick", "dates": "Sep 2025", "logo": "assets/logos/uow.jpeg", "logo_alt": "University of Warwick logo", "flag": "GB-ENG", "flag_alt": "England flag" },
+      { "title": "Magna Cum Laude in PgD", "organization": "Ashoka University", "dates": "May 2023", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag" },
+      { "title": "Bronze Medal in Computer Science", "organization": "Ashoka University", "dates": "May 2023", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag" },
+      { "title": "Singapore International Pre-Graduate Award", "organization": "Agency for Science, Technology and Research (A*STAR)", "dates": "Dec 2022", "logo": "assets/logos/a_star.jpeg", "logo_alt": "A*STAR logo", "flag": "SG", "flag_alt": "Singapore flag" }
+    ]
+  }
+]

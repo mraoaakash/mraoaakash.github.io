@@ -130,7 +130,7 @@ const renderNoResults = () => {
   publicationsList.innerHTML = "";
   const empty = document.createElement("li");
   empty.className = "pub-empty";
-  empty.textContent = "No publications found. Add items in assets/data/publications.json.";
+  empty.textContent = "No publications found. Add items in content/publications.json.";
   publicationsList.appendChild(empty);
 };
 
@@ -141,7 +141,7 @@ const createCoverNode = (publication) => {
   const image = document.createElement("img");
   image.className = "pub-cover";
   image.loading = "lazy";
-  image.src = imageSrc;
+  image.src = window.resolveSiteUrl(imageSrc);
   image.alt = publication.title || "Publication cover image";
 
   if (link) {
@@ -352,7 +352,7 @@ const renderKeyCarousel = () => {
   if (displayItems.length === 0) {
     const empty = document.createElement("p");
     empty.className = "pub-empty";
-    empty.textContent = "Add your key publications in assets/data/publications.json.";
+    empty.textContent = "Add your key publications in content/publications.json.";
     publicationsKeyTrack.appendChild(empty);
     return;
   }
@@ -360,7 +360,7 @@ const renderKeyCarousel = () => {
   displayItems.forEach((publication) => {
     const image = document.createElement("img");
     image.loading = "lazy";
-    image.src = publication.image || DEFAULT_PLACEHOLDER_COVER;
+    image.src = window.resolveSiteUrl(publication.image || DEFAULT_PLACEHOLDER_COVER);
     image.alt = publication.title || "Key publication cover";
 
     if (isUsableLink(publication.link)) {
@@ -446,8 +446,8 @@ const initializePublicationsPage = async () => {
 
   try {
     const [itemsResponse, tagsResponse] = await Promise.all([
-      fetch("assets/data/publications.json", { cache: "no-store" }),
-      fetch("assets/data/publications_tags.json", { cache: "no-store" })
+      fetch(window.resolveSiteUrl("content/publications.json"), { cache: "no-store" }),
+      fetch(window.resolveSiteUrl("content/publications_tags.json"), { cache: "no-store" })
     ]);
 
     if (!itemsResponse.ok || !tagsResponse.ok) {

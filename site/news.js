@@ -2,7 +2,7 @@ const homeNewsList = document.getElementById("homeNewsList");
 const fullNewsList = document.getElementById("newsList");
 const newsCount = document.getElementById("newsCount");
 
-const NEWS_DATA_PATH = "assets/data/news.json";
+const NEWS_DATA_PATH = "content/news.json";
 const NEWS_ASSET_BASE_PATH = "assets/images/news/";
 const MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -39,7 +39,7 @@ const getNewsAssetPath = (assetName) => {
   }
 
   const cleaned = assetName.trim().split("/").pop();
-  return cleaned ? `${NEWS_ASSET_BASE_PATH}${encodeURIComponent(cleaned)}` : "";
+  return cleaned ? window.resolveSiteUrl(`${NEWS_ASSET_BASE_PATH}${encodeURIComponent(cleaned)}`) : "";
 };
 
 const createNewsMediaNode = ({ path, text, type }) => {
@@ -131,7 +131,7 @@ const initializeNews = async () => {
   }
 
   try {
-    const response = await fetch(NEWS_DATA_PATH, { cache: "no-store" });
+    const response = await fetch(window.resolveSiteUrl(NEWS_DATA_PATH), { cache: "no-store" });
     if (!response.ok) {
       throw new Error("Failed to fetch news data.");
     }

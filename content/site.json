@@ -1,0 +1,39 @@
+{
+  "name": "Aakash Rao",
+  "short_name": "Aakash",
+  "publication_name": "Aakash Madhav Rao",
+  "citation_name": "Aakash M. Rao",
+  "email_display": "Aakash [dot] Rao [at] warwick [dot] ac [dot] uk",
+  "site_title": "mraoaakash.github.io",
+  "description": "Personal website of Aakash Rao.",
+  "copyright_year": 2026,
+  "footer_text": "Last updated:",
+  "navigation": [
+    { "label": "Home", "path": "index.html" },
+    { "label": "Projects", "path": "pages/projects.html" },
+    { "label": "Publications", "path": "pages/publications.html" },
+    { "label": "News", "path": "pages/news.html" },
+    { "label": "CV", "path": "pages/cv.html" }
+  ],
+  "pages": {
+    "index.html": { "title": "", "description": "Personal website of Aakash Rao." },
+    "projects.html": { "title": "Projects", "description": "Projects by Aakash Rao." },
+    "publications.html": { "title": "Publications", "description": "Publications by Aakash Rao." },
+    "news.html": { "title": "News", "description": "Latest news and updates from Aakash Rao." },
+    "cv.html": { "title": "CV", "description": "Curriculum Vitae of Aakash Rao." }
+  },
+  "profile_image": "assets/prof_pic.jpg",
+  "profile_image_alt": "Aakash Rao profile photo",
+  "bio_html": "Aakash is currently a doctoral student advised by Dr <a href=\"https://warwick.ac.uk/fac/sci/dcs/people/fayyaz_minhas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fayyaz ul Amir Afsar Minhas</a> at the <a href=\"https://warwick.ac.uk/fac/cross_fac/tia/\" target=\"_blank\" rel=\"noopener noreferrer\">Tissue Image Analytics Centre (TIA) Centre</a>, under the School of Computer Science at the University of Warwick. Aakash's work focuses on developing machine-learning methods for computational pathology, particularly analysing whole-slide histopathology images to discover clinically relevant biomarkers and improve disease characterisation, as part of a joint industry-academia project with <a href=\"https://www.gsk.com/en-gb/\" target=\"_blank\" rel=\"noopener noreferrer\">GSK</a>. Previously, Aakash completed a MSc in Artificial Intelligence and Machine Learning from the University of Birmingham and a PgD and BSc in Computer Science from Ashoka University.",
+  "contact": [
+    "Aakash [dot] Rao [at] warwick [dot] ac [dot] uk",
+    "CS-3.18, Department of Computer Science, University of Warwick, CV4 7AL"
+  ],
+  "social_links": [
+    { "label": "University of Warwick profile", "url": "https://warwick.ac.uk/fac/sci/dcs/people/mraoaakash/", "image": "assets/tia-logo-light.png", "image_class": "tia-logo tia-logo-light", "image_alt": "TIA Centre logo" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=CUw8Iw8AAAAJ&hl=en", "icon": "fa-brands fa-google-scholar" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mraoaakash/", "icon": "fa-brands fa-linkedin" },
+    { "label": "GitHub", "url": "https://github.com/mraoaakash", "icon": "fa-brands fa-square-github" },
+    { "label": "ORCID", "url": "https://orcid.org/0000-0001-6708-9415", "icon": "fa-brands fa-orcid" }
+  ]
+}

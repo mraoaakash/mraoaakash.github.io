@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <meta name="description" content="Latest news and updates.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="../site/styles.css">
+</head>
+<body class="news-page">
+  <nav class="topbar" data-site-nav></nav>
+
+  <main class="container news-main">
+    <section class="news-section" aria-labelledby="news-page-title">
+      <div class="news-page-heading">
+        <h1 id="news-page-title">News</h1>
+        <p class="news-count" id="newsCount" aria-live="polite"></p>
+      </div>
+      <div class="news-scroll" id="newsList" aria-label="All news" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+
+  <script src="../site/script.js"></script>
+  <script src="../site/news.js"></script>
+</body>
+</html>
