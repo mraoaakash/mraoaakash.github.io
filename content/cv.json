@@ -14,6 +14,7 @@
   {
     "title": "Teaching Experience",
     "entries": [
+      { "title": "Senior Graduate Teaching Assistant", "organization": "University of Warwick", "dates": "Sep 2026 - Dec 2026", "logo": "assets/logos/uow.jpeg", "logo_alt": "University of Warwick logo", "flag": "GB-ENG", "flag_alt": "England flag", "bullets": ["Teaching CS430 Foundations of Data Analytics with Dr. Ayse Sunar."] },
       { "title": "Teaching Fellow - AI for Tomorrow's World", "organization": "Ashoka Horizons Achievers Programme", "dates": "Summer 2025", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag" },
       { "title": "Teaching Assistant", "organization": "Ashoka University", "dates": "Jan 2024 - May 2024", "logo": "assets/logos/UoA.png", "logo_alt": "Ashoka University logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CS1206 - Design and Analysis of Algorithms.", "Focused on dynamic programming and competitive coding style problems.", "Graded assignments, quizzes, and exams, and streamlined discussions for effective learning."] },
       { "title": "Teaching Assistant", "organization": "IIT Jodhpur, Rajasthan", "dates": "Jun 2023 - Sep 2023", "logo": "assets/logos/iitj.png", "logo_alt": "IIT Jodhpur logo", "flag": "IN", "flag_alt": "India flag", "bullets": ["Assisted in teaching CSL2010 - Introduction to Machine Learning.", "Graded assignments, quizzes, and exams; facilitated discussions."] },
